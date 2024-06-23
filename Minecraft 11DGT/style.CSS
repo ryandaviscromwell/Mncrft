@@ -23,6 +23,9 @@
 .sidebar {
     grid-area: sidebar;
     background-color: #BC7F50;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer {
