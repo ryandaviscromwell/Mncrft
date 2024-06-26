@@ -2,7 +2,7 @@
     grid-area: header;
     background-color: rgb(57, 173, 11);
     text-align: center;
-    background-image: url(Image/mncrft.PNG);
+    background-image: url(Image/grass.PNG);
 }
 
 .nav {
@@ -80,4 +80,5 @@ li a:hover {
 
 .mob {
   width: 5%;
+  
 }
