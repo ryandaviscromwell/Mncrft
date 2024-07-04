@@ -8,6 +8,8 @@
 .nav {
     grid-area: nav;
     background-color: green;
+    height: 45px;
+    padding-top: 10px;
 }
 
 .main {
@@ -86,4 +88,8 @@ li a:hover {
 .profile {
   width: 30%;
   margin: 0;
+}
+
+.boss {
+  width: 40%;
 }
