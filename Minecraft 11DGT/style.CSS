@@ -90,6 +90,11 @@ li a:hover {
   margin: 0;
 }
 
+.profile2 {
+  width: 40%;
+  padding-bottom: 7%;
+}
+
 .boss {
   width: 40%;
 }
