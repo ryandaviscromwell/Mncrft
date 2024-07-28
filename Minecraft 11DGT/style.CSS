@@ -1,6 +1,6 @@
-.header {
+ /* This code makes the header background green makes words center and sets image as background */
+.header { 
     grid-area: header;
-    background-color: rgb(57, 173, 11);
     text-align: center;
     background-image: url(Image/grass.PNG);
 }
@@ -75,7 +75,7 @@ ul {
     background-color: rgb(100, 231, 100);
     text-align: center;
   }
-  /* Change the link color to white (black) on hover */
+  /* Change the link color to page on hover */
 li a:hover {
   background-color: rgb(209, 154, 102)
 }
@@ -97,4 +97,9 @@ li a:hover {
 
 .boss {
   width: 40%;
+}
+
+.profile3 {
+  width: 60%;
+  padding-top: 12%;
 }
