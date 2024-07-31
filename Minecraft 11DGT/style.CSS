@@ -1,10 +1,11 @@
- /* This code makes the header background green makes words center and sets image as background */
+  /* This code makes the header words center and sets image for background */
 .header { 
     grid-area: header;
     text-align: center;
     background-image: url(Image/grass.PNG);
 }
 
+ /* makes nav colour green and changes nav size */
 .nav {
     grid-area: nav;
     background-color: green;
@@ -12,6 +13,7 @@
     padding-top: 10px;
 }
 
+  /* sets the colour and size of the main */
 .main {
     grid-area: main;
     background-color: #744B2D;
@@ -23,6 +25,7 @@
     margin: 0;
 }
 
+  /* Makes the colour and size of the sidebar */
 .sidebar {
     grid-area: sidebar;
     background-color: #BC7F50;
@@ -31,6 +34,7 @@
     padding-right: 10px;
 }
 
+  /* Makes the footer gray and sets footer size */
 .footer {
     grid-area: footer;
     background-color: #7B7975;
@@ -38,6 +42,7 @@
     text-align: center;
 }
 
+  /* sets the size of each column and says where each part of the website is */
 .container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -49,11 +54,13 @@
       "footer footer footer footer";
 }
 
+  /* Makes any image with class as image this size */
 .image {
     width: 80%;
     margin: 40px;
 }
 
+  /* sets the size of the ul and where it shows on the website */
 ul {
     padding: 0;
     margin: 0 auto;
@@ -64,41 +71,49 @@ ul {
     width: 400px;
   }
 
+  /* This sets the width of the links and keeps them in a line */
   li {
     float: left;
     width: 100px;
   }
 
+  /* Makes the colour light green keeps the links centered and adds spacing between words and edges */
   li a{
     display: block;
     padding: 8px;
     background-color: rgb(100, 231, 100);
     text-align: center;
+    text-decoration: none;
   }
-  /* Change the link color to page on hover */
+  /* Changes the link color to page when hovering over links */
 li a:hover {
   background-color: rgb(209, 154, 102)
 }
 
+  /* Makes any image with class as mob this size */
 .mob {
   width: 5%;
   
 }
 
+  /* Makes any image with class as profile this size */
 .profile {
   width: 30%;
   margin: 0;
 }
 
+  /* Makes any image with class as profile2 this size and adds spacing from bottom */
 .profile2 {
   width: 40%;
   padding-bottom: 7%;
 }
 
+  /* Makes any image with class as boss this size */
 .boss {
   width: 40%;
 }
 
+  /* Makes any image with class as profile3 this size and adds spacing from top */
 .profile3 {
   width: 60%;
   padding-top: 12%;
